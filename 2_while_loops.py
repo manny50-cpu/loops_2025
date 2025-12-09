@@ -1,6 +1,6 @@
-# Example Practice:
-# Start at 5 and count down to 1.
-# When the countdown finishes, print "Blastoff!"
+# Given:
+colors = ["red", "blue", "green", "yellow", "purple"]
 
 # Challenge:
-# Modify the countdown so the starting number comes from user input.
+# Use a while loop to print each color UNTIL you find "yellow".
+# Do NOT print "yellow" — stop before it.
