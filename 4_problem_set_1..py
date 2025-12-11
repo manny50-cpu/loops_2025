@@ -6,13 +6,18 @@
 # ### **Problem 1: Print Numbers 1 to 10
 
 # Write a program that prints the numbers from **1 to 10**, each on a new line.
-
+for i in range(1,11):
+    print(i)
 
 
 # ### **Problem 2: Sum of Numbers
 
 # Ask the user for a number **n**, then calculate and display the **sum of all numbers from 1 to n**.
-
+n = int(input("Give me a number"))
+total_sum = 0 
+for number in range(1, n*1):
+    total_sum+= number
+print("The sum of your numbers is", total_sum)
 
 
 # ### **Problem 3: Factorial Calculator
