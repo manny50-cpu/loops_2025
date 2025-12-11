@@ -6,18 +6,18 @@
 # ### **Problem 1: Print Numbers 1 to 10
 
 # Write a program that prints the numbers from **1 to 10**, each on a new line.
-for i in range(1,11):
-    print(i)
+# for i in range(1,11):
+#     print(i)
 
 
 # ### **Problem 2: Sum of Numbers
 
 # Ask the user for a number **n**, then calculate and display the **sum of all numbers from 1 to n**.
-n = int(input("Give me a number"))
-total_sum = 0 
-for number in range(1, n*1):
-    total_sum+= number
-print("The sum of your numbers is", total_sum)
+# n = int(input("Give me a number"))
+# total_sum = 0 
+# for number in range(1, n*1):
+#     total_sum+= number
+# print("The sum of your numbers is", total_sum)
 
 
 # ### **Problem 3: Factorial Calculator
@@ -25,6 +25,24 @@ print("The sum of your numbers is", total_sum)
 # Ask the user for a number **n**, then calculate the **factorial** of that number.
 
 # *(Example: factorial of 5 is 120)
+# number_2 = int(input("What is your number?"))
+
+# def factorial(n):
+#     factorial = 1
+
+
+
+#     for i in range(n):
+#         factorial*= i+1
+    
+
+#     return factorial
+  
+
+
+
+
+# print(factorial(2))
 
 
 # ### **Problem 4: Count Vowels**
@@ -35,8 +53,17 @@ print("The sum of your numbers is", total_sum)
 # ### **Problem 5: Print Even Numbers**
 
 # Ask the user for a number **n**, then print all **even numbers** from 2 up to n.
+# n = int(input("Enter a number"))
+# print("Even numbers from 2 to":n, ":")
+# for number in range(2, n+1, 2):
+#     print(number)
 
-
+list_even_numbers= list(range(1,45))
+for number in list_even_numbers:
+    if number%2 ==0:
+        print("even number", number)
+    else:
+        print("odd number", number)
 
 # ### **Problem 6: Reverse a String**
 
